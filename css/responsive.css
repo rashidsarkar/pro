@@ -1,0 +1,1212 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /* manu part start  */
+  .navbar-rs {
+    background-color: rgba(159, 221, 44, 0.795);
+    text-align: center;
+  }
+  .nav-item {
+    padding-bottom: 10px;
+  }
+
+  .nav-item {
+    padding-bottom: 0px;
+  }
+
+  #navi .baton {
+    font-size: 14px;
+    padding: 7px 9px;
+  }
+  #navi .baton {
+    font-size: 14px;
+    padding: 7px 12px;
+    margin-bottom: 10px;
+  }
+  #navi li a img {
+    display: none;
+  }
+  #baner .tex {
+    text-align: center;
+    padding-top: 0px;
+  }
+  #baner .tex h3 {
+    font-size: 44px;
+    line-height: 38px;
+  }
+
+  #baner .tex h2 {
+    font-size: 36px;
+    color: #d50a51;
+    line-height: 38px;
+  }
+
+  #baner .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 0;
+  }
+
+  #baner .tex button {
+    font-size: 14px;
+    padding: 7px 12px;
+    margin: 10px 0;
+  }
+
+  #history {
+    margin-bottom: 4px;
+    margin-top: 6px;
+  }
+  #history .tex p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  #history .tex p span {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  #history .tex h3 {
+    font-size: 18px;
+  }
+
+  #history .tex h3 span {
+    font-size: 22px;
+  }
+
+  #giift .tex h3 {
+    font-size: 18px;
+  }
+
+  #giift .tex h3 span {
+    font-size: 22px;
+  }
+  #giift .tex p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  #giift .right img {
+    display: none;
+  }
+  #giift .tex p span {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  .baton {
+    font-size: 14px;
+    padding: 7px 12px;
+    margin-left: 5px;
+  }
+  #tiket {
+    padding: 0px;
+    margin: 0px;
+  }
+  #tiket .left img {
+    width: 84%;
+    margin-top: 10px;
+  }
+
+  #tiket .tex h3 {
+    font-size: 18px;
+  }
+
+  #tiket .tex h3 span {
+    font-size: 22px;
+  }
+
+  #tiket .tex p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  #tiket .tex p span {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  #offer .tex h3 {
+    font-size: 18px;
+  }
+  #offer .tex h3 span {
+    font-size: 22px;
+  }
+
+  #offer .tex .title {
+    position: relative;
+    margin-top: 26px;
+  }
+  #offer {
+    padding: 10px;
+  }
+  #count {
+    padding: 11px 0;
+  }
+  #shoot {
+    padding: 4px;
+  }
+
+  #shoot .right .tex h3 {
+    font-size: 18px;
+  }
+
+  #shoot .right .tex h3 span {
+    font-size: 22px;
+  }
+  #sleder {
+    margin: 2px 0 98px 0;
+  }
+
+  #count .main .item {
+    text-align: center;
+    background: palegreen;
+    width: 45%;
+    margin-bottom: 13px;
+    border-radius: 29px;
+  }
+
+  #count .main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #sleder .prev {
+    position: absolute;
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    top: -57px;
+    left: 50%;
+    z-index: 1;
+    line-height: 35px;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+
+  #sleder .next {
+    position: absolute;
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    top: 217px;
+    left: 50%;
+    z-index: 1;
+    line-height: 35px;
+    text-align: center;
+    transform: translateX(-50%);
+    /* bottom: -2px; */
+  }
+
+  #sleder {
+    margin: 2px 0 98px 0;
+    margin-top: 81px;
+    margin-bottom: 139px;
+  }
+  #shoot .right .tex {
+    text-align: right;
+    margin-top: 50px;
+  }
+  #shoot .right .tex p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+    color: #444444;
+  }
+  .news .left i {
+    font-size: 30px;
+    color: #f1f1f1;
+    position: absolute !important;
+    transform: translateX(0);
+    left: 25px;
+    top: 16px;
+  }
+
+  .news .left h2 {
+    font-size: 25px;
+    color: #f1f1f1;
+  }
+  .news .left p {
+    font-size: 11px;
+    color: #f1f1f1;
+  }
+  .news {
+    height: 170px;
+    background-color: #8a5e3b;
+    transform: translateY(-50%);
+    /* margin: 100px 0; */
+    border-radius: 17px;
+    /* margin-top: 55px; */
+  }
+  .news .left {
+    position: relative !important;
+    display: flex;
+    padding-left: 64px;
+    align-items: center;
+    /* background-color: #d50a51; */
+  }
+  .news .right_main form {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  .news .right_main .input_right {
+    margin-left: 0;
+  }
+  .news .right_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #d50a51; */
+    /* padding-left: 42px; */
+  }
+
+  .news .right_main .input_right .submit i {
+    position: static;
+    border: 1px solid #f1f1f1;
+    height: 28px;
+    font-size: 20px;
+    top: -20px;
+    left: -7px;
+    line-height: 28px;
+    text-align: center;
+    color: #f1f1f1;
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+  .news .right_main .input_right .submit {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .footer_down .tex i {
+    position: absolute;
+    font-size: 26px;
+    height: 35px;
+    width: 35px;
+    background-color: #d50a51;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    top: 8px;
+    left: 15px;
+    /* transform: translateY(-50%); */
+  }
+  #sleder .container .love_img2 {
+    position: absolute;
+    bottom: -47px;
+    transform: rotate(171deg);
+    right: -7px;
+  }
+  #sleder .container .love_img {
+    position: absolute;
+    top: -47px;
+    left: 12px;
+  }
+  #sleder .container .love_img2 {
+    position: absolute;
+    bottom: -47px;
+    transform: rotate(171deg);
+    right: 15px;
+  }
+  #shoot .left .item .banar .icon i {
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.4s;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-rs {
+    background-color: rgba(159, 221, 44, 0.795);
+    text-align: center;
+  }
+  .nav-item {
+    padding-bottom: 10px;
+  }
+
+  .nav-item {
+    padding-bottom: 0px;
+  }
+  #navi .baton {
+    font-size: 14px;
+    padding: 7px 9px;
+  }
+  #navi .baton {
+    font-size: 14px;
+    padding: 7px 12px;
+    margin-bottom: 10px;
+  }
+  #navi li a img {
+    display: none;
+  }
+
+  #baner .tex {
+    text-align: center;
+    padding-top: 61px;
+  }
+  #baner .tex {
+    text-align: center;
+    padding-top: 76px;
+  }
+  #baner .tex h3 {
+    font-size: 47px;
+    line-height: 47px;
+    color: #8a5e3b;
+  }
+  #baner .tex h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 46px;
+    color: #d50a51;
+    line-height: 40px;
+  }
+  #baner .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 0 7px 0px;
+  }
+  #baner .tex button {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: #d50a51;
+    padding: 6px 8px;
+    border: none;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  #history .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: #d50a51;
+    display: block;
+  }
+
+  #history .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #444444;
+  }
+
+  #history .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+  }
+  #history .tex p span {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+  }
+
+  #history {
+    margin-bottom: 15px;
+    margin-top: 31px;
+  }
+  #giift .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  #giift .tex p span {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+  }
+  #giift .right img {
+    position: static;
+    bottom: -81px;
+    left: -100px;
+  }
+  .baton {
+    font-size: 14px;
+    padding: 7px 9px;
+  }
+  #giift .img {
+    margin-top: 75px;
+  }
+  #giift .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: #d50a51;
+    display: block;
+  }
+
+  #giift .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #444444;
+  }
+  #giift .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d50a51;
+    display: block;
+  }
+
+  #tiket {
+    margin-top: 26px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  #tiket .left img {
+    width: 100%;
+    margin-top: 109px;
+  }
+  #tiket .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #444444;
+  }
+  #tiket .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d50a51;
+    display: block;
+  }
+  #tiket .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  #tiket .tex p span {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+  }
+
+  #offer .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  #offer .tex p span {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+  }
+  #offer .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #444444;
+  }
+  #offer .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d50a51;
+    display: block;
+  }
+  .title h4 {
+    font-size: 15px;
+  }
+  .title p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+  }
+  #offer .right .title img {
+    position: absolute;
+    left: -6px;
+    top: -45px;
+    width: 23%;
+  }
+  #offer .right .title {
+    position: relative;
+    padding-left: 25px;
+    /* top: 5px; */
+  }
+  #offer .lefta {
+    margin-top: 96px;
+  }
+  #shoot .right .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #444444;
+  }
+  #shoot .right .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d50a51;
+    display: block;
+  }
+  .banar .tex p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 8px;
+  }
+  .banar .tex h3 {
+    font-size: 15px;
+  }
+  #shoot .left .item .banar .icon i {
+    color: #fff;
+    font-size: 17px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    transition: 0.4s;
+    border: 1px solid #fff;
+    text-align: center;
+  }
+  #shoot .right .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+  }
+  #count {
+    background: url(image/flip.png) no-repeat center;
+    background-size: cover;
+    padding: 3px 0;
+  }
+  #count .item h3 {
+    font-size: 19px;
+  }
+  #count .item h2 {
+    font-size: 24px;
+  }
+  #sleder .next {
+    position: absolute;
+    font-size: 35px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    top: 50%;
+    left: -38px;
+    z-index: 1;
+    line-height: 40px;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  #sleder .prev {
+    position: absolute;
+    font-size: 35px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    top: 50%;
+    right: -38px;
+    z-index: 1;
+    line-height: 40px;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  /* comone ++++++++++++++========= */
+
+  .news .left i {
+    font-size: 30px;
+    color: #f1f1f1;
+    position: absolute !important;
+    transform: translateX(0);
+    left: 25px;
+    top: 16px;
+  }
+
+  .news .left h2 {
+    font-size: 25px;
+    color: #f1f1f1;
+  }
+  .news .left p {
+    font-size: 11px;
+    color: #f1f1f1;
+  }
+  .news {
+    height: 170px;
+    background-color: #8a5e3b;
+    transform: translateY(-50%);
+    /* margin: 100px 0; */
+    border-radius: 17px;
+    /* margin-top: 55px; */
+  }
+  .news .left {
+    position: relative !important;
+    display: flex;
+    padding-left: 64px;
+    align-items: center;
+    /* background-color: #d50a51; */
+  }
+  .news .right_main form {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  .news .right_main .input_right {
+    margin-left: 0;
+  }
+  .news .right_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #d50a51; */
+    /* padding-left: 42px; */
+  }
+
+  .news .right_main .input_right .submit i {
+    position: static;
+    border: 1px solid #f1f1f1;
+    height: 28px;
+    font-size: 20px;
+    top: -20px;
+    left: -7px;
+    line-height: 28px;
+    text-align: center;
+    color: #f1f1f1;
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+  .news .right_main .input_right .submit {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .footer_down .tex i {
+    position: absolute;
+    font-size: 26px;
+    height: 35px;
+    width: 35px;
+    background-color: #d50a51;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    top: 8px;
+    left: 15px;
+    /* transform: translateY(-50%); */
+  }
+  #sleder .container .love_img2 {
+    position: absolute;
+    bottom: -47px;
+    transform: rotate(171deg);
+    right: -7px;
+  }
+  #sleder .container .love_img {
+    position: absolute;
+    top: -47px;
+    left: 12px;
+  }
+  #sleder .container .love_img2 {
+    position: absolute;
+    bottom: -47px;
+    transform: rotate(171deg);
+    right: 15px;
+  }
+  #shoot .left .item .banar .icon i {
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.4s;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-right: 10px;
+  }
+  /* comone ++++++++++++++========= */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-rs {
+    background-color: rgba(159, 221, 44, 0.795);
+    text-align: center;
+  }
+  .nav-item {
+    padding-bottom: 10px;
+  }
+
+  .nav-item {
+    padding-bottom: 0px;
+  }
+  #navi .baton {
+    font-size: 14px;
+    padding: 7px 9px;
+  }
+  #navi .baton {
+    font-size: 14px;
+    padding: 7px 12px;
+    margin-bottom: 10px;
+  }
+  #navi li a img {
+    display: none;
+  }
+
+  #baner .tex {
+    text-align: center;
+    padding-top: 61px;
+  }
+  #baner .tex {
+    text-align: center;
+    padding-top: 76px;
+  }
+  #baner .tex h3 {
+    font-size: 47px;
+    line-height: 47px;
+    color: #8a5e3b;
+  }
+  #baner .tex h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 46px;
+    color: #d50a51;
+    line-height: 40px;
+  }
+  #baner .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 0 7px 0px;
+  }
+  #baner .tex button {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: #d50a51;
+    padding: 6px 8px;
+    border: none;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  #history .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: #d50a51;
+    display: block;
+  }
+
+  #history .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #444444;
+  }
+
+  #history .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+  }
+  #history .tex p span {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+  }
+
+  #history {
+    margin-bottom: 15px;
+    margin-top: 31px;
+  }
+  #giift .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  #giift .tex p span {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+  }
+  #giift .right img {
+    position: static;
+    bottom: -81px;
+    left: -100px;
+  }
+  .baton {
+    font-size: 14px;
+    padding: 7px 9px;
+  }
+  #giift .img {
+    margin-top: 75px;
+  }
+  #giift .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: #d50a51;
+    display: block;
+  }
+
+  #giift .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #444444;
+  }
+  #giift .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d50a51;
+    display: block;
+  }
+
+  #tiket {
+    margin-top: 26px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  #tiket .left img {
+    width: 100%;
+    margin-top: 109px;
+  }
+  #tiket .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #444444;
+  }
+  #tiket .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d50a51;
+    display: block;
+  }
+  #tiket .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  #tiket .tex p span {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+  }
+
+  #offer .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  #offer .tex p span {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+  }
+  #offer .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #444444;
+  }
+  #offer .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d50a51;
+    display: block;
+  }
+  .title h4 {
+    font-size: 15px;
+  }
+  .title p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+  }
+  #offer .right .title img {
+    position: absolute;
+    left: -6px;
+    top: -45px;
+    width: 23%;
+  }
+  #offer .right .title {
+    position: relative;
+    padding-left: 25px;
+    /* top: 5px; */
+  }
+  #offer .lefta {
+    margin-top: 96px;
+  }
+  #shoot .right .tex h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #444444;
+  }
+  #shoot .right .tex h3 span {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #d50a51;
+    display: block;
+  }
+  .banar .tex p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 8px;
+  }
+  .banar .tex h3 {
+    font-size: 15px;
+  }
+  #shoot .left .item .banar .icon i {
+    color: #fff;
+    font-size: 17px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    transition: 0.4s;
+    border: 1px solid #fff;
+    text-align: center;
+  }
+  #shoot .right .tex p {
+    font-size: 13px;
+    color: #444444;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+  }
+  #count {
+    background: url(image/flip.png) no-repeat center;
+    background-size: cover;
+    padding: 3px 0;
+  }
+  #count .item h3 {
+    font-size: 19px;
+  }
+  #count .item h2 {
+    font-size: 24px;
+  }
+  #sleder .next {
+    position: absolute;
+    font-size: 35px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    top: 50%;
+    left: -31px;
+    z-index: 1;
+    line-height: 40px;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  #sleder .prev {
+    position: absolute;
+    font-size: 35px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    top: 50%;
+    right: -29px;
+    z-index: 1;
+    line-height: 40px;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  /* comone ++++++++++++++========= */
+
+  .news .left i {
+    font-size: 30px;
+    color: #f1f1f1;
+    position: absolute !important;
+    transform: translateX(0);
+    left: 25px;
+    top: 16px;
+  }
+
+  .news .left h2 {
+    font-size: 25px;
+    color: #f1f1f1;
+  }
+  .news .left p {
+    font-size: 11px;
+    color: #f1f1f1;
+  }
+  .news {
+    height: 170px;
+    background-color: #8a5e3b;
+    transform: translateY(-50%);
+    /* margin: 100px 0; */
+    border-radius: 17px;
+    /* margin-top: 55px; */
+  }
+  .news .left {
+    position: relative !important;
+    display: flex;
+    padding-left: 64px;
+    align-items: center;
+    /* background-color: #d50a51; */
+  }
+  .news .right_main form {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  .news .right_main .input_right {
+    margin-left: 0;
+  }
+  .news .right_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #d50a51; */
+    /* padding-left: 42px; */
+  }
+
+  .news .right_main .input_right .submit i {
+    position: static;
+    border: 1px solid #f1f1f1;
+    height: 28px;
+    font-size: 20px;
+    top: -20px;
+    left: -7px;
+    line-height: 28px;
+    text-align: center;
+    color: #f1f1f1;
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+  .news .right_main .input_right .submit {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .footer_down .tex i {
+    position: absolute;
+    font-size: 26px;
+    height: 35px;
+    width: 35px;
+    background-color: #d50a51;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    top: 8px;
+    left: 15px;
+    /* transform: translateY(-50%); */
+  }
+  #sleder .container .love_img2 {
+    position: absolute;
+    bottom: -47px;
+    transform: rotate(171deg);
+    right: -7px;
+  }
+  #sleder .container .love_img {
+    position: absolute;
+    top: -47px;
+    left: 12px;
+  }
+  #sleder .container .love_img2 {
+    position: absolute;
+    bottom: -47px;
+    transform: rotate(171deg);
+    right: 15px;
+  }
+  #shoot .left .item .banar .icon i {
+    color: #fff;
+    font-size: 16px;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    line-height: 33px;
+    transition: 0.4s;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  #offer {
+    background: url(image/banner-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 24px 0;
+  }
+  /* comone ++++++++++++++========= */
+}

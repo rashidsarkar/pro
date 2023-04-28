@@ -1,0 +1,763 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.baton:hover {
+  background-color: #d50a51;
+  color: #fff;
+}
+.baton {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 20px;
+  /* background-color: #d50a51; */
+  padding: 15px 20px;
+  border: none;
+  color: #d50a51;
+  border: 1px solid #d50a51;
+}
+
+/* comon css sws */
+#navi li a {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  transition: 0.4s;
+}
+#navi .baton {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #d50a51;
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+}
+#navi li a img {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
+}
+#navi li a:hover img {
+  bottom: -10px;
+  opacity: 1;
+  visibility: visible;
+}
+#navi {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+/* banar sor  */
+#baner {
+  background: url(image/banner-bg.png) no-repeat center;
+  background-size: cover;
+}
+#baner .img img {
+  width: 100%;
+  padding-top: 50px;
+}
+#baner .tex {
+  text-align: center;
+  padding-top: 140px;
+}
+#baner .tex button {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #d50a51;
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+}
+
+#baner .tex h3 {
+  font-size: 61px;
+  line-height: 54px;
+  color: #8a5e3b;
+}
+#baner .tex h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 84px;
+  color: #d50a51;
+  line-height: 54px;
+}
+#baner .tex p {
+  font-size: 16px;
+  color: #444444;
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+  margin: 50px 0;
+}
+#history .img img {
+  width: 100%;
+}
+#history .tex h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #444444;
+}
+#history .tex h3 span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #d50a51;
+  display: block;
+}
+
+#history .tex p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+
+  margin-top: 55px;
+
+  color: #444444;
+}
+#history .tex p span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: block;
+  color: #444444;
+  margin-top: 40px;
+}
+#history .tex .title {
+  position: relative;
+  padding-left: 55px;
+}
+#history .tex .title img {
+  position: absolute;
+  top: -21px;
+  left: 0;
+  /* vertical-align: middle; */
+}
+#history {
+  margin-bottom: 294px;
+  margin-top: 100px;
+}
+
+/* gift soro  */
+
+#giift {
+  background: url(image/flower-bg.png) no-repeat center;
+  background-size: cover;
+  padding: 50px 0;
+  /* margin-top: 50px; */
+}
+#giift .tex h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #444444;
+}
+#giift .tex h3 span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #d50a51;
+  display: block;
+}
+#giift .tex p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+
+  margin-top: 55px;
+
+  color: #444444;
+}
+#giift .tex p span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: block;
+  color: #444444;
+  margin-top: 20px;
+}
+#giift .tex .title {
+  position: relative;
+  padding-left: 55px;
+}
+#giift .tex .title img {
+  position: absolute;
+  top: -21px;
+  left: 0;
+  /* vertical-align: middle; */
+}
+#giift .right {
+  position: relative;
+}
+#giift .right img {
+  position: absolute;
+  bottom: -81px;
+  left: -100px;
+}
+/* gift part ses  */
+#tiket {
+  padding: 100px 0;
+}
+#tiket .left img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#tiket .tex {
+  text-align: right;
+}
+#tiket .tex h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #444444;
+}
+#tiket .tex h3 span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #d50a51;
+  display: block;
+}
+#tiket .tex p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+
+  margin-top: 55px;
+
+  color: #444444;
+}
+#tiket .tex p span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: block;
+  color: #444444;
+  margin-top: 20px;
+}
+#tiket .tex .title {
+  position: relative;
+  /* padding-left: 55px; */
+  /* text-align: right; */
+  display: inline-block;
+  padding-right: 20px;
+}
+#tiket .tex .title img {
+  position: absolute;
+  top: -21px;
+  /* right: 250px; */
+  right: 0;
+  /* padding-right: 20px; */
+  transform: scaleX(-1);
+  /* left: 0; */
+  /* vertical-align: middle; */
+}
+
+/* offer soro  */
+#offer {
+  background: url(image/banner-bg.png) no-repeat center;
+  background-size: cover;
+  padding: 100px 0;
+}
+#offer .tex h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #444444;
+}
+#offer .tex h3 span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #d50a51;
+  display: block;
+}
+#offer .tex p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+
+  margin-top: 55px;
+
+  color: #444444;
+}
+#offer .tex p span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: block;
+  color: #444444;
+  margin-top: 20px;
+}
+#offer .tex .title {
+  position: relative;
+  padding-left: 55px;
+}
+#offer .tex .title img {
+  position: absolute;
+  top: -21px;
+  left: 0;
+  /* vertical-align: middle; */
+}
+#offer .right .item {
+  /* background-color: #d50a51; */
+  text-align: left;
+  margin-bottom: 50px;
+  transition: 0.4s;
+  border-right: 2px solid transparent;
+  background-color: #f1f1f1;
+  padding: 50px 20px 15px 20px;
+  border-radius: 5px;
+}
+#offer .right .title {
+  position: relative;
+  padding-left: 35px;
+}
+#offer .right .title img {
+  position: absolute;
+  left: 0;
+  top: -28px;
+}
+#offer .right .item:hover {
+  border-right: 2px solid #d50a51;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+/* offer ses  */
+#shoot .left .item .pic {
+  position: relative;
+  /* height: 420px; */
+}
+#shoot .left .item img {
+  width: 100%;
+  /* height: 100%; */
+}
+#shoot .left .item .banar {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  transform: scale(0);
+  transition: 0.4s;
+  left: 0;
+}
+#shoot .left .item:hover .banar {
+  transform: scale(1);
+}
+#shoot .left .item .banar .tex {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  color: #fff;
+}
+#shoot .left .item .banar .icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#shoot .left .item .banar .icon a:hover i {
+  background-color: #d50a51;
+  border-color: #d50a51;
+}
+#shoot .left .item .banar .icon a {
+  display: block;
+  margin-bottom: 10px;
+}
+#shoot .left .item .banar .icon i {
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: 0.4s;
+  border: 1px solid #fff;
+  text-align: center;
+}
+#shoot .right .tex {
+  text-align: right;
+}
+#shoot .right .tex h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #444444;
+}
+#shoot .right .tex h3 span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #d50a51;
+  display: block;
+}
+#shoot .right .tex p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+
+  margin-top: 55px;
+
+  color: #444444;
+}
+#shoot .right .tex p span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: block;
+  color: #444444;
+  margin-top: 20px;
+}
+#shoot .right .tex .title {
+  position: relative;
+  /* padding-left: 55px; */
+  /* text-align: right; */
+  display: inline-block;
+  padding-right: 20px;
+}
+#shoot .right .tex .title img {
+  position: absolute;
+  top: -21px;
+  /* right: 250px; */
+  right: 0;
+  /* padding-right: 20px; */
+  transform: scaleX(-1);
+  /* left: 0; */
+  /* vertical-align: middle; */
+}
+#shoot {
+  padding: 50px 0;
+}
+#fliper {
+  background: url(image/flip.png) no-repeat center;
+  background-size: cover;
+  padding: 100px 0;
+}
+#myFlipper {
+  color: #d50a51;
+}
+.flipper-group label {
+  position: absolute;
+  color: #0e0b0b;
+  font-size: 20%;
+  top: 100%;
+  line-height: 1em;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  text-align: center;
+  padding-top: 0.5em;
+}
+/* slider soro  */
+#slider {
+  background-color: #444444;
+}
+#slid .item {
+  background-color: #fffae2;
+  width: 575px;
+  /* padding: 30px 20px; */
+  /* margin-left: 20px; */
+}
+#slid .img .im {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#slid .img .im img {
+  width: 100%;
+}
+#slid .item P {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  /* display: inline-block; */
+}
+#slid .item .img .tes {
+  display: inline-block;
+  padding-left: 30px;
+}
+#slid .item .img h4 {
+  display: inline-block;
+}
+
+/* ===================================
+===================coundown soro ===================
+=============================================== */
+#count {
+  background: url(image/flip.png) no-repeat center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#count .main {
+  display: flex;
+  justify-content: space-between;
+}
+#count .main .item {
+  text-align: center;
+}
+/* cound oun ses  */
+
+#sleder {
+  margin: 80px 0;
+  margin-bottom: 120px;
+}
+#sleder .item {
+  padding: 20px 30px;
+  /* background-color: firebrick; */
+  background-color: #fffae2;
+  position: relative;
+}
+#sleder .item .main .tex {
+  padding-left: 20px;
+}
+#sleder .item .main {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+#sleder .item .img img {
+  width: 100%;
+}
+#sleder .item .img {
+  height: 70px;
+  width: 70px;
+  /* background-color: greenyellow; */
+  border-radius: 50%;
+  overflow: hidden;
+}
+.tex_slider .item {
+  margin: 0 20px;
+  position: relative;
+}
+#sleder .next {
+  position: absolute;
+  font-size: 40px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #d50a51;
+  color: #d50a51;
+  top: 50%;
+  left: -50px;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  transform: translateY(-50%);
+}
+#sleder .prev {
+  position: absolute;
+  font-size: 40px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #d50a51;
+  color: #d50a51;
+  top: 50%;
+  right: -50px;
+  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+#sleder .container {
+  position: relative;
+}
+#sleder .container .love_img {
+  position: absolute;
+  top: -47px;
+  left: -27px;
+}
+#sleder .container .love_img2 {
+  position: absolute;
+  bottom: -47px;
+  transform: rotate(171deg);
+  right: -27px;
+}
+/* news sor  */
+
+#floter {
+  background: url(image/flutter_bg.png) no-repeat center;
+  background-size: cover;
+
+  /* height: 500px; */
+}
+.news {
+  height: 100px;
+  background-color: #8a5e3b;
+
+  transform: translateY(-50%);
+
+  /* margin: 100px 0; */
+  border-radius: 50px;
+}
+.news .main {
+  display: flex;
+  justify-content: space-between;
+}
+.news.letter {
+  background-color: #444444;
+}
+.news .left h2 {
+  font-size: 40px;
+  color: #f1f1f1;
+}
+.news .left p {
+  font-size: 14px;
+  color: #f1f1f1;
+}
+.news .left {
+  position: relative !important;
+  display: flex;
+  padding-left: 100px;
+  align-items: center;
+  /* background-color: #d50a51; */
+}
+.news .left .tex {
+  position: relative;
+}
+.news .left i {
+  font-size: 50px;
+
+  color: #f1f1f1;
+  position: absolute !important;
+  transform: translateX(-128%);
+}
+.news .right_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #d50a51; */
+}
+
+.news .right_main input {
+  width: 200px;
+  height: 30px;
+}
+
+.news .right_main form {
+  display: flex;
+  /* align-items: center; */
+}
+.news .right_main .input_right {
+  margin-left: 20px;
+}
+.news .right_main .input_right .submit {
+  position: relative;
+}
+.news .right_main .input_right .submit i {
+  position: absolute;
+  border: 1px solid #f1f1f1;
+  height: 28px;
+  font-size: 20px;
+  top: -20px;
+  left: -7px;
+  line-height: 28px;
+  text-align: center;
+  color: #f1f1f1;
+  width: 50px;
+}
+
+.footer_down .logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer_down .tex .item .text {
+  padding-left: 50px;
+}
+.footer_down .tex .item {
+  position: relative;
+  /* background-color: #0ad536; */
+}
+.footer_down .tex .item span {
+  display: block;
+}
+.footer_down .tex i {
+  position: absolute;
+  font-size: 26px;
+  height: 35px;
+  width: 35px;
+  background-color: #d50a51;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 35px;
+  text-align: center;
+  top: 8px;
+  left: 0;
+  /* transform: translateY(-50%); */
+}
+.folow .tex {
+  display: flex;
+  justify-content: center;
+}
+.folow .tex p {
+  font-size: 20px;
+  color: #9b2222;
+  font-weight: 600;
+}
+.folow .ico {
+  display: flex;
+  justify-content: center;
+}
+.folow .ico i {
+  /* position: absolute; */
+  border: 1px solid #9b2222;
+  height: 35px;
+  font-size: 20px;
+
+  line-height: 35px;
+  text-align: center;
+  color: #819b22;
+  /* background-color: #9b2222; */
+  width: 35px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+#copy {
+  background-color: #fce1ed;
+  margin-top: 20px;
+}
+#copy p {
+  color: #d50a51;
+  text-align: center;
+}
